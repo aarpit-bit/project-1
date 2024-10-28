@@ -1,4 +1,4 @@
-Project name : Corporate Project System using Django, RestApi
+Project name : Corporate Project System
 
 Date: 28th October 2024
 
