@@ -36,6 +36,8 @@ class Employee(models.Model):
     def __str__(self):
         return self.name
     
+
+    
 class Project(models.Model):
     name=models.CharField(max_length=255)
     description=models.TextField()
@@ -45,7 +47,7 @@ class Project(models.Model):
     budget=models.IntegerField()
     status=models.CharField(max_length=255)
     duration=models.IntegerField()
-    
+
 
     def __str__(self):
         return self.name
