@@ -8,6 +8,10 @@ Team Name : Team Visionaries
 
 ![th](https://github.com/user-attachments/assets/40bab1c7-5502-457e-9da9-f5a5cb0d6a43)
 
+ER-DIAGRAM: 
+![b5f8836d-3ffa-4d05-8cb1-3843c34016cd](https://github.com/user-attachments/assets/f156b0b3-4db4-4ba7-a327-f1e5a72f36e7)
+
+
 Tech Stack used: Django, RestApi Framework, Mysql Client
 
 ![th (1)](https://github.com/user-attachments/assets/5d6607e0-ff8d-44bb-a178-0008929ba064)
