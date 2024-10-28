@@ -3,7 +3,7 @@ from rest_framework import serializers
 from .models import Company,Employee,Project
 
 #making a serializer for the company model for all fields
-class ComapnySerializer(serializers.ModelSerializer):
+class CompanySerializer(serializers.ModelSerializer):
     class Meta:
         model=Company
         fields='_all_'
