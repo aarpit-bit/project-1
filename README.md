@@ -25,6 +25,9 @@ Pankil Kamboj:Creating urls, writing the code for admin and pushing the code in 
 ER-DIAGRAM: 
 ![b5f8836d-3ffa-4d05-8cb1-3843c34016cd](https://github.com/user-attachments/assets/f156b0b3-4db4-4ba7-a327-f1e5a72f36e7)
 
+![Screenshot 2024-10-28 144738](https://github.com/user-attachments/assets/9d1df470-826e-4ce9-b1d5-403df5f04bb0)
+
+
 
 Tech Stack used: Django, RestApi Framework, Mysql Client
 
