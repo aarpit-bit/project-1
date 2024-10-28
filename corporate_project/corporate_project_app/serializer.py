@@ -1,22 +1,17 @@
-#importing necessary modules
 from rest_framework import serializers
-from .models import Company,Employee,Project
+from .models import Company, Employee, Project
 
-#making a serializer for the company model for all fields
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:
-        model=Company
-        fields='_all_'
+        model = Company
+        fields = '__all__'
 
-#making a serializer for the employee model for all fields
 class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
-        model=Company
-        fields='_all_'
+        model = Employee
+        fields = '__all__'
 
-
-#making a serializer for the project model for all fields
 class ProjectSerializer(serializers.ModelSerializer):
     class Meta:
-        model=Company
-        fields='_all_'
+        model = Project
+        fields = '__all__'

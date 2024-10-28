@@ -12,14 +12,15 @@ class CompanyViewset(viewsets.ModelViewSet):
 class EmployeeViewset(viewsets.ModelViewSet):
     queryset=Employee.objects.all()
     serializer_class=EmployeeSerializer
-    authentication_classes=[BasicAuthentication]
-    permission_classes=[IsAuthenticated]
+    # authentication_classes=[BasicAuthentication]
+    # permission_classes=[IsAuthenticated]
 
 class ProjectViewset(viewsets.ModelViewSet):
     queryset=Project.objects.all()
     serializer_class=ProjectSerializer
     authentication_classes=[BasicAuthentication]
     permission_classes=[IsAdminUser]
+    # permission_classes=[IsAuthenticated]
 
 
 # Create your views here.

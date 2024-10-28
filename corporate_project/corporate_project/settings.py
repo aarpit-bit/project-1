@@ -78,7 +78,7 @@ WSGI_APPLICATION = "corporate_project.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "project1db",
+        "NAME": "dbproject3",
         "USER": "root",
         "PASSWORD": "/0Sql1219",
         "HOST":"localhost",
@@ -127,3 +127,8 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
